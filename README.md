@@ -1,10 +1,10 @@
-# Introduction In Englishi(英文说明)
-## 1. by cloud VM in cloud， for Example, alibaba cloud or microsoft azure
+# Introduction In English(英文说明)
+## 1. buy cloud VM in cloud， for Example, alibaba cloud or microsoft azure
 Requirement for AndroidDM：
 CPU >= 1vCPU
 Memory >= 2G
 Storage >= 20G
-Image: Ubuntu 18.04 64-bit
+Image: Ubuntu 18.04 64-bit or new
 
 ## 2.Open the following port: 
  8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000 
@@ -43,7 +43,7 @@ http://ServerIP:8080
 CPU >= 1vCPU
 Memory >= 2G
 Storage >= 20G
-Image: Ubuntu 18.04 64-bit
+Image: Ubuntu 18.04 64-bit 或者更高版本
 
 ## 2．	开放如下的端口：
 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000
