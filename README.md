@@ -1,23 +1,54 @@
 # Introduction In Englishi(英文说明)
-## AndroidDM-VM-Cloud
-AndroidDM Server for cloud VM, such as aliyun VM, azure VM
+## 1. by cloud VM in cloud， for Example, alibaba cloud or microsoft azure
+Requirement for AndroidDM：
+CPU >= 1vCPU
+Memory >= 2G
+Storage >= 20G
+Image: Ubuntu 18.04 64-bit
 
-## git clone https://github.com/EdgeSolution/AndroidDM-VM-Cloud.git
+## 2.Open the following port: 
+ 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000 
 
-## run application
-  - The virtual machine needs to expose ports: 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000
-  - Run start.sh
+## login VM, install package: git, docker and docker-compose
+Install git 
+$ sudo apt update && apt install git 
 
-## Run the Debian slim docker image for AndroidDM
+Install docker compose
+$ curl  -sSL  https://get.daocloud.io/docker | sh                 
+$ apt  install  docker-compose                               
 
-#中文说明（Introduction In Chinese）
+Check docker and docker-compose version
+$ docker version  			
+$ docker-compose  version  	
+
+
+## 4. dowonload AndroidDM install file:
+$ git clone https://github.com/EdgeSolution/AndroidDM-VM-Cloud.git
+
+## 5. Install AndroidDM Server and run server
+$ cd AndroidDM-VM-Cloud /              
+$ chmod +x  start.sh                 
+$./start.sh   
+
+it will download AndroidDM docker image from docker hub, may be 10 ~ 20 minute, please wait it complete. 
+After finished, you can access AndroidDM Server in browser as follows:
+http://ServerIP:8080
+
+# 中文说明（Introduction In Chinese）
 
 部署到云端虚拟机步骤
 ## 1．	首先需要在平台上上申请一个基于Ubuntu 18.04 x64系统的虚拟机
 我们已经有验证过阿里云和微软Azure云
+建议配置
+CPU >= 1vCPU
+Memory >= 2G
+Storage >= 20G
+Image: Ubuntu 18.04 64-bit
+
 ## 2．	开放如下的端口：
 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000
-##3．	远程登录该VM，安装一些必须的工具：git, docker, docker-compose
+
+## 3．	远程登录该VM，安装一些必须的工具：git, docker, docker-compose
 $ sudo apt update && apt install git 
 $ curl  -sSL  https://get.daocloud.io/docker | sh                 
 $ sudo apt  install  docker-compose                               
