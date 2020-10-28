@@ -9,7 +9,7 @@ Image: Ubuntu 18.04 64-bit
 ## 2.Open the following port: 
  8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000 
 
-## login VM, install package: git, docker and docker-compose
+## 3.login VM, install package: git, docker and docker-compose
 Install git 
 $ sudo apt update && apt install git 
 
