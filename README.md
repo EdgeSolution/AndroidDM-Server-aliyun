@@ -12,9 +12,9 @@ AndroidDM Server for cloud VM, such as aliyun VM, azure VM
 # v1.0.0 version
  - New features
  - docker images version
-  - localhost/harbor/androiddm-javaenv-aliyun:v1.0.0
-  - localhost/harbor/androiddm-astore-slim-aliyun:v1.0.0
-  - localhost/harbor/androiddm-mosquitto-dev:v1.0
-  - localhost/harbor/androiddm-novnc-aliyun:v1.0
+  - localhost/harbor/androiddm-javaenv-admin:v1.0.0
+  - localhost/harbor/androiddm-astore-slim-admin:v1.0.0
+  - localhost/harbor/androiddm-mosquitto-admin:v1.0
+  - localhost/harbor/androiddm-novnc-admin:v1.0
   - postgres:9.4
   - portainer/portainer
