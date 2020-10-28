@@ -2,9 +2,9 @@
 AndroidDM Server for Aliyun
 
 # git clone https://github.com/EdgeSolution/AndroidDM-Server-aliyun.git
-
+Exposing Ports: 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9000
+Run start.sh
 Run the Debian slim docker image for AndroidDM
-
 # v1.0.0 version
  - New features
  - docker images version
