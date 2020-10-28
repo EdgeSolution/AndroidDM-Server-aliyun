@@ -4,7 +4,7 @@ AndroidDM Server for Aliyun
 # git clone https://github.com/EdgeSolution/AndroidDM-Server-aliyun.git
 
 # run application
-  - VM expose Ports: 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000
+  - The virtual machine needs to expose ports: 8080, 30001, 30002, 1883, 5432, 5500, 5901, 9191, 9000
   - Run start.sh
 
 # Run the Debian slim docker image for AndroidDM
